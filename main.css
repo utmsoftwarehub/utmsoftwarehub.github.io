@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+.event, .mailing-list {
+    margin-bottom: 30px;
+}
+.event button, .mailing-list button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.event button:hover, .mailing-list button:hover {
+    background-color: #0c54b2;
+}
+.mailing-list input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.socials {
+    margin-top: 30px;
+    text-align: center;
+}
+.socials a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.socials a:hover {
+    color: #1a73e8;
+}
